@@ -1,0 +1,7 @@
+function maxSum(arg){
+ let a = Number(arg);
+
+ for(var i = 1;i <= 5;i++){
+     console.log(i)
+ }
+}
