@@ -1,0 +1,12 @@
+function solve(languages){
+let n = String(languages);
+
+if (n == 'USA' || n == 'England'){
+    console.log('English')
+}else if(n == "Spain" || n == "Argentina" || n == "Mexico"){
+    console.log('Spanish')
+}
+else{
+    console.log("unknown")
+}
+}
