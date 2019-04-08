@@ -1,0 +1,10 @@
+function maxSum(arg){
+ let a = Number(arg);
+
+ if(a > 5.49){
+     console.log("Excellent")
+ }
+ else{
+     console.log("Not excellent")
+ }
+}
