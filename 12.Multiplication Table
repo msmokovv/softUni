@@ -1,0 +1,9 @@
+function solve(args){
+let multyply = parseInt(args);
+let sum = 0;
+
+for (var i = 1;i <= 10;i++){
+    console.log(`${multyply} X ${i} = ${sum=multyply*i}`)
+}
+}
+solve(5)
