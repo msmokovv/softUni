@@ -1,0 +1,6 @@
+function solve(num){
+ let n = Number(num);
+ let form = n + n;
+
+ console.log(form)
+}
