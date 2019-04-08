@@ -1,0 +1,41 @@
+function solve(one,two,three){
+let num = Number(one);
+let num2 = Number(two);
+let num3 = Number(three); 
+
+    if(num > num2 && num > num3){
+        console.log(num);
+        if(num2 > num3){
+            console.log(num2);
+            console.log(num3);
+        }
+        else{
+            console.log(num3);
+            console.log(num2);
+        }
+    }
+    else if(num2 > num && num2 > num3){
+        console.log(num2);
+        if(num > num3){
+            console.log(num);
+            console.log(num3);
+        }
+        else{
+            console.log(num3);
+            console.log(num);
+        }
+    }
+    else if(num3 > num && num3 > num2){
+        console.log(num3);
+        if(num > num2){
+            console.log(num);
+            console.log(num2);
+        }
+        else{
+            console.log(num2);
+            console.log(num);
+        }
+    }
+
+}
+solve(-2,1,3)
