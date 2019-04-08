@@ -1,0 +1,55 @@
+function solve(day,age){
+let typeOfDay = String(day);
+let ages = Number(age); 
+var price = 0;
+if(ages >= 0){    
+    if(typeOfDay == "Weekday"){
+        if(ages <= 18){
+            price = 12;
+            console.log(price + "$")
+        }
+        else if(ages > 18 && ages <= 64){
+            price = 18;
+            console.log(price + "$")
+        }
+        else if(ages > 64 && ages <=122){
+            price = 12;
+            console.log(price + "$")
+        }
+    }
+    else if(typeOfDay == "Weekend"){
+        if(ages <= 18){
+            price = 15;
+            console.log(price + "$")
+        }
+        else if(ages > 18 && ages <= 64){
+            price = 20;
+            console.log(price + "$")
+        }
+        else if(ages > 64 && ages <=122){
+            price = 15;
+            console.log(price + "$")
+        }
+    }
+    else if(typeOfDay == "Holiday"){
+        if(ages <= 18){
+            price = 5;
+            console.log(price + "$")
+        }
+        else if(ages > 18 && ages <= 64){
+            price = 12;
+            console.log(price + "$")
+        }
+        else if(ages > 64 && ages <=122){
+            price = 10;
+            console.log(price + "$")
+        }
+    }
+    else{
+        console.log("Error!")
+    }
+}
+else{
+    console.log("Error!")
+}
+}
