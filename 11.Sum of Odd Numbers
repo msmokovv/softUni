@@ -1,0 +1,12 @@
+function solve(oddSum){
+let counter = Number(oddSum);
+let sum = 0;
+let odd = 1;
+
+for (var i = 1;i <= counter;i++){
+    sum += odd;
+    console.log(odd);
+    odd += 2
+}
+console.log(`Sum: ${sum}`)
+}
